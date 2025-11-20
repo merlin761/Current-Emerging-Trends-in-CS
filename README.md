@@ -1,12 +1,72 @@
-Briefly explain the work that you did on this project: What code were you given? What code did you create yourself?
 
-for project two we had to complete the Q-training algorithm, the code starts a qmaze object in wich it defines the maze and its enviroment as well this stores IA score and experience, next the IA would perform numerous of epochs this would reset the maze and the IA would run the maze until the end of the maze multiple times, the IA everythime would try to improve obtain more points and find the faster way out in addition the IA would choose either exploration or exploitation.
+For this Project, I was responsible for implementing the Q-training algorithm used by the AI agent to learn how to navigate the maze.
+The starter code provided the structure of the project, including:
 
-What do computer scientists do and why does it matter?
-CS develop games, apps, website etc. the reason why they matter is because the develop thinngs to make our everyday life easier, like for example they can create systems like a appp to call your family wih is far away in another country or as well websites if you want to shop online, order food, socuial media to stay connected with other as well if you are feeling lonely AI so you can talk with someone or help you play in a game. they do a lot of work and they ensure your life is easier.  
+The QMaze class
 
-How do I approach a problem as a computer scientist?
-first thing would be define the problem as well understand the problem.  having a clear understanding of the problem helps with having a positive outcome. implementing different solution and using different types of testing methods and then lastly reflecting so later on you can use this problem if it where to happend again to you or any peers. 
+Maze initialization and its environment
 
-What are my ethical responsibilities to the end user and the organization?
- ensuring that im always using safe codes, not violating others private data, following laws. when creating something you always need to think about others how consummers are going to use the tools they have created.
+Storage for the agent’s score and experience
+
+Basic functions to reset and display the maze
+
+My contribution was completing the Q-learning logic.
+This included:
+
+Running multiple epochs where the maze resets each time
+
+Enabling the agent to repeatedly attempt the maze until it reaches the goal
+
+Implementing the balance between exploration (trying new paths) and exploitation (using what it has learned)
+
+Updating Q-values so the agent could improve its score and discover the fastest route through the maze
+
+Through repeated training runs, the AI learned to make better decisions, earn more reward points, and complete the maze more efficiently.
+
+What Do Computer Scientists Do and Why Does It Matter?
+
+Computer scientists design and build the technology that people use every day—applications, games, websites, artificial intelligence tools, operating systems, and much more.
+
+Their work matters because it solves real-world problems and makes life easier. For example:
+
+Apps that let us call family members across the world
+
+Online shopping platforms and food delivery websites
+
+Social media that connects communities
+
+AI systems that assist users, provide help, or enhance digital experiences
+
+Computer scientists develop systems that improve productivity, communication, entertainment, and accessibility. Their contributions impact nearly every industry.
+
+How I Approach a Problem as a Computer Scientist
+
+When solving problems, I follow a structured process:
+
+Understand and define the problem clearly
+This ensures I know exactly what needs to be solved before writing any code.
+
+Break the problem down into smaller tasks
+This makes it easier to manage and reduces complexity.
+
+Develop and test solutions
+I experiment with different approaches and use appropriate testing methods to check functionality.
+
+Reflect and refine
+After solving the problem, I evaluate what worked, what didn’t, and how I can apply the experience to future projects for myself or for peers.
+
+My Ethical Responsibilities to the End User and the Organization
+
+As a computer scientist, I must:
+
+Write safe, secure, and reliable code
+
+Protect user privacy and ensure data is handled responsibly
+
+Follow laws, policies, and organizational standards
+
+Consider how people will use the systems I build and design them responsibly
+
+Ensure that my work does not harm users and supports a positive, safe experience
+
+Ethical responsibility means keeping the user’s trust, protecting their information, and developing technology that benefits them rather than putting them at risk.
